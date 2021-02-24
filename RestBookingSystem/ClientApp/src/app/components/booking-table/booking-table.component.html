@@ -1,0 +1,26 @@
+<table class="table">
+  <thead class="thead-light">
+  <tr>
+    <th scope="col">Contact Name</th>
+    <th scope="col">Contact Number</th>
+    <th scope="col">No of Diners</th>
+    <th scope="col">Table Number</th>
+    <th scope="col">Booking Time</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class=""
+      [routerLink]="['edit-booking']"
+      [state]="{ booking: row }" *ngFor="let row of bookings"
+      [ngClass]="{'text-danger': row.numberOfPeople > 6, 'text-primary': row.numberOfPeople === 1}">
+    <th scope="row">{{row.contactName}}</th>
+    <td>{{row.contactNumber}}</td>
+    <td>{{row.numberOfPeople}}</td>
+    <td>{{row.tableNumber}}</td>
+    <td>
+      <p class="m-0">{{row.bookingTime | date: 'EE,  d MMMM yy' }}</p>
+      <p class="m-0">{{row.bookingTime | date: 'h:mm a' }}</p>
+    </td>
+  </tr>
+  </tbody>
+</table>

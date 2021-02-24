@@ -1,0 +1,50 @@
+﻿[
+	{
+		"bookingId": 1,
+		"tableNumber": 1,
+		"contactName": "David Thompson",
+		"contactNumber": "07111222331",
+		"numberOfPeople": 4,
+		"bookingTime": "2019-03-25T13:00:00.000Z"
+	},
+	{
+		"bookingId": 2,
+		"tableNumber": 3,
+		"contactName": "James Gartland",
+		"contactNumber": "07111222332",
+		"numberOfPeople": 1,
+		"bookingTime": "2019-03-25T15:00:00.000Z"
+	},
+	{
+		"bookingId": 3,
+		"tableNumber": 2,
+		"contactName": "Stephen Hewitt",
+		"contactNumber": "07111222333",
+		"numberOfPeople": 3,
+		"bookingTime": "2019-03-25T14:00:00.000Z"
+	},
+	{
+		"bookingId": 4,
+		"tableNumber": 4,
+		"contactName": "Colin Hughes",
+		"contactNumber": "07111222334",
+		"numberOfPeople": 10,
+		"bookingTime": "2019-03-25T10:30:00.000Z"
+	},
+	{
+		"bookingId": 5,
+		"tableNumber": 3,
+		"contactName": "Richard Blears",
+		"contactNumber": "07111222335",
+		"numberOfPeople": 6,
+		"bookingTime": "2019-03-25T20:15:00.000Z"
+	},
+	{
+		"bookingId": 6,
+		"tableNumber": 1,
+		"contactName": "James Edgson",
+		"contactNumber": "07111222336",
+		"numberOfPeople": 7,
+		"bookingTime": "2019-03-25T20:00:00.000Z"
+	}
+]
